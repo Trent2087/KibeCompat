@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "kibecompat",
+	"version": "${version}",
+	"name": "Kibe Compat",
+	"description": "Adds compatibility between Kibe Cooler and Artifacts Eternal Steak. Also prevents cooler when you have Beacon Overhaul Nutrition effect.",
+	"authors": [
+		"Trent2087"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kibecompat/icon.png",
+	"environment": "*",
+	"mixins": [
+		"kibecompat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"kibe": "*",
+		"beaconoverhaul": "*"
+	}
+}
